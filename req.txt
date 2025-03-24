@@ -1,0 +1,5 @@
+pyfiglet
+Api
+colorama 
+requests
+user_agent
