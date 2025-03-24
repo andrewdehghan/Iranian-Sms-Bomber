@@ -17,8 +17,8 @@ if sys.platform =="win32":
 else:
     os.system("clear")
 
-print(Fore.LIGHTGREEN_EX+pyfiglet.figlet_format("Iranian Sms Bomber")+Fore.RESET)    
-
+print(Fore.LIGHTGREEN_EX+pyfiglet.figlet_format("Iranian Sms Bomber\n")+Fore.RESET)    
+print(Fore.RED+"[+] Code By Andrew Dehghan : "+Fore.RESET)  
 SMS_SERVICES = list(i[0] for i in getmembers(sms, isfunction))
 CALL_SERVICES = list(i[0] for i in getmembers(call, isfunction))
 
